@@ -1,0 +1,18 @@
+<section class="flex">
+    <!-- Welcoming messaage -->
+    <div class="welcome-message" >
+        <h2 class="text-3xl">Welcome to Abc Hotel</h2>
+        <div class="text-center">
+            <p>Your Home Away from Home!</p>
+            <p>Experience unparalleled comfort and luxury in the heart of Beni. </p>
+            <p>Book your stay with us today!</p>
+        </div>
+        <button class="bg-slate-500 py-2 px-4 rounded-md">View rooms</button>
+    </div>
+    <!-- Welcoming image -->
+     <div class="welcome-img">
+        <!-- This image should be changing after 5sec -->
+        <img  [srcset]="displayUrl"
+        alt="Hotel Image" class="rounded-xl">
+     </div>
+</section>
